@@ -1,6 +1,5 @@
-theme: jekyll-theme-cayman
-title: "我的C++题解博客"
-description: "一些C++题解"
-url: "https://KALRUY.github.io"
+theme: minima
+title: KALRUY 的 C++ 题解
+description: 一些 C++ 题解
 lang: zh
 timezone: Asia/Shanghai
