@@ -1,8 +1,6 @@
-# Minimal 主题配置
-theme: minimal
-
-title: "我的C++题解博客"   # 博客名，可改
-description: "一些C++题解" # 博客描述
+theme: jekyll-theme-cayman
+title: "我的C++题解博客"
+description: "一些C++题解"
 url: "https://KALRUY.github.io"
 lang: zh
 timezone: Asia/Shanghai
