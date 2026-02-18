@@ -1,10 +1,26 @@
-theme: minima
-title: KALRUY's Blog
-description: ""
-lang: zh
-timezone: Asia/Shanghai
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  math_engine: mathjaxx
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            KALRUY's Blog
+tagline:          'C++ , network'
+description:      '兴趣,专注,行动力.'
+url:              KALRUY.github.io
+baseurl:          /
+
+author:
+  name:           'KALRUY'
+  url:            
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/kalruy/kalruy.github.io
