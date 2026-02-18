@@ -1,26 +1,25 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# 核心站点配置
+title: KALRUY's Blog
+tagline: 'C++ , network'
+description: '兴趣,专注,行动力.'
+url: https://KALRUY.github.io  # 补充完整的 URL 协议头，避免路径错误
+baseurl: /                     # 根目录部署保持为 / 即可
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            KALRUY's Blog
-tagline:          'C++ , network'
-description:      '兴趣,专注,行动力.'
-url:              KALRUY.github.io
-baseurl:          /
-
+# 作者信息
 author:
-  name:           'KALRUY'
-  url:            
+  name: KALRUY
+  github: https://github.com/kalruy  # 补充作者 GitHub 地址（可选）
 
-paginate:         5
+# 分页配置
+paginate: 5
+paginate_path: "/page/:num/"  # minima 分页默认路径，显式声明更清晰
 
-# Custom vars
-version:          2.1.0
+# 主题设置（指定 minima）
+theme: minima
 
+# 自定义变量
+version: 2.1.0
+
+# 第三方链接
 github:
-  repo:           https://github.com/kalruy/kalruy.github.io
+  repo: https://github.com/kalruy/kalruy.github.io
